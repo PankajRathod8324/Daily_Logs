@@ -6,7 +6,6 @@ using DAL.Interfaces;
 using BLL.Interfaces;
 using BLL.Services;
 using DAL.Repository;
-using BLL.Services;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -17,6 +16,7 @@ using Rotativa.AspNetCore;
 using Microsoft.AspNetCore.Hosting.Server;
 using DinkToPdf.Contracts;
 using DinkToPdf;
+using Entities.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -144,6 +144,10 @@ using (var scope = builder.Services.BuildServiceProvider().CreateScope())
 
 
 var app = builder.Build();
+
+
+
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseStaticFiles();
 

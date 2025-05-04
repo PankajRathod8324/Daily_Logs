@@ -525,12 +525,14 @@
                         data: submissionData,
                         success: function (response) {
                             toastr.success('Customer Added Successfully!', "Success");
-
                             window.location.href = '/AccountManagerOrderApp/MenuOrderApp?Id=' + response.customerId;
                         },
                         error: function (xhr, status, error) {
-                            console.error('Error:', xhr.responseText); // Log detailed error
+                            let msg = xhr.responseJSON?.message || "Something went wrong.";
+                            console.error('Error here ajax:', msg); // Log detailed error
+                            toastr.error(msg); // 👈 will show: "A record with the same value already exists."
                         }
+                        
                     });
                 }
                 else {
@@ -575,6 +577,9 @@
                     },
                     error: function (xhr, status, error) {
                         console.error('Error:', xhr.responseText); // Log detailed error
+                         let msg = xhr.responseJSON?.message || "Something went wrong.";
+                            console.error('Error here ajax:', msg); // Log detailed error
+                            toastr.error(msg); // 👈 will show: "A record with the same value already exists."
                     }
                 });
 

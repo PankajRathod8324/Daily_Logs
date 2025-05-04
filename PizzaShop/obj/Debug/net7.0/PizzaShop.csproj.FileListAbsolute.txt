@@ -1000,3 +1000,10 @@ D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\obj\Debug\net7.0\refint
 D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\obj\Debug\net7.0\PizzaShop.pdb
 D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\obj\Debug\net7.0\PizzaShop.genruntimeconfig.cache
 D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\obj\Debug\net7.0\ref\PizzaShop.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\obj\Debug\net7.0\PizzaShop.sourcelink.json
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Data.SqlClient.dll
+D:\PizzaShop_N_Tier-main\PizzaShop_N_Tier-main\PizzaShop\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Data.SqlClient.dll
